@@ -15,7 +15,7 @@ int palindrome(listint_t **l, listint_t *r)
 		resp = palindrome(l, r->next);
 		if (resp != 0)
 		{
-			resp = (r->n == (*l)->n);
+			resp = (r->L == (*l)->L);
 			*l = (*l)->next;
 			return (resp);
 		}
