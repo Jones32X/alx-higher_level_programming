@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 def print_matrix_integer(matrix=[[]]):
     for v in matrix:
-        K = 1
-        for x in v:
-            if K == len(v):
-                print("{:d}".format(x), end="")
+        T = 1
+        for b in v:
+            if T == len(v):
+                print("{:d}".format(b), end="")
             else:
-                print("{:d}".format(x), end=" ")
-                K += 1
-                print()
+                print("{:d}".format(b), end=" ")
+            T = T + 1
+        print()
