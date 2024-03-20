@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import sys
 from sys import argv, exit
 from calculator_1 import add, sub, mul, div
 
@@ -20,7 +21,7 @@ if __name__ == '__main__':
             print("{:d} / {:d} = {:d}".format(a, b, div(a, b)))
         else:
             print("Unknown operator. Available operators: +, -, * and /")
-            sys.exit(1)
+            exit()
     else:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
-        sys.exit(1)
+        exit()
