@@ -21,7 +21,7 @@ if __name__ == '__main__':
             print("{:d} / {:d} = {:d}".format(a, b, div(a, b)))
         else:
             print("Unknown operator. Available operators: +, -, * and /")
-            exit()
+            sys.exit()
     else:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
-        exit()
+        sys.exit()
