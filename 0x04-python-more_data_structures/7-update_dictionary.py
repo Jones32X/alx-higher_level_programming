@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-
-def multiply_by_2(a_dictionary):
-    N_Dicti = a_dictionary.copy()
-    for key in N_Dicti:
-         N_Dicti[key] *= 2
-    return(N_Dicti)
+def update_dictionary(a_dictionary, key, value):
+    if key in a_dictionary.keys():
+        a_dictionary[key] = value
+    else:
+        a_dictionary[key] = value
+    return(a_dictionary)
