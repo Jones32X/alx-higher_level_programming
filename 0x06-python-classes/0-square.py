@@ -2,4 +2,5 @@
 """Defines a class Square"""
 
 class Square:
+    """Defines properties of a square."""
      pass
