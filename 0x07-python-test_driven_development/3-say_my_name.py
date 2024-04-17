@@ -1,12 +1,13 @@
 #!/usr/bin/python3
+
 """
 Module say_my_name
-Prints a given first name and last name.
+Prints  given first name and last name.
 """
 
 
 def say_my_name(first_name, last_name=""):
-    """Prints a string with <first_name>
+    """Prints  string with <first_name>
     and <last_name>.
     """
 
